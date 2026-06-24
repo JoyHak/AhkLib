@@ -8,11 +8,15 @@ main() {
     links := Map()
     
     loop files, 'posts\*.html' {
+        html := FileRead(A_LoopFilePath)
+        html := StrReplace(html, '&amp;', '&')
+    
         for link, ctx in RegExMatchAll(
-            FileRead(A_LoopFilePath),
-            '<dd>Topic: <a href="(?<href>[^"]+)">(?<title>[^<+]+)'
+            html,
+            'U)<dd>Topic: <a href="(?<href>[^"]+)">(?<title>.+)<\/a>'
         ) {
-            links.Set(link.href, link.title)            
+            links.Set(link.href, link.title) 
+            
         }
     }
     
