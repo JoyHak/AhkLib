@@ -1,3 +1,6 @@
+; Usage example: https://github.com/JoyHak/MarkdownToBBCode/blob/952871b510947fb69956ee551a5d62d38d187c06/Lib/convert.ahk#L116
+; Replacement example: https://github.com/JoyHak/MarkdownToBBCode/blob/952871b510947fb69956ee551a5d62d38d187c06/Lib/convert.ahk#L233
+
 class RegExMatchAll {
 	__New(haystack, needle) {
 		this.Haystack := haystack

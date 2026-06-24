@@ -1,3 +1,5 @@
+; Convert anything to string: Object, Array, ...
+
 FormatValue(v) => Type(v) == 'String' ? '"' v '"' : v
 
 Dump(v) {    
