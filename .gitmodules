@@ -1,3 +1,18 @@
 [submodule "Scripts/MarkdownToBBCode"]
 	path = Scripts/MarkdownToBBCode
 	url = https://github.com/JoyHak/MarkdownToBBCode
+[submodule "Scripts/ChangeLogSorter"]
+	path = Scripts/ChangeLogSorter
+	url = https://github.com/JoyHak/ChangeLogSorter
+[submodule "Scripts/FlowLauncherHotkeys"]
+	path = Scripts/FlowLauncherHotkeys
+	url = https://github.com/JoyHak/Flow-Launcher-windows-key
+[submodule "Scripts/Radify"]
+	path = Scripts/Radify
+	url = https://github.com/JoyHak/Radify
+[submodule "Scripts/Launcher"]
+	path = Scripts/Launcher
+	url = https://github.com/JoyHak/Launcher
+[submodule "Scripts/QuickSwitch"]
+	path = Scripts/QuickSwitch
+	url = https://github.com/JoyHak/QuickSwitch
