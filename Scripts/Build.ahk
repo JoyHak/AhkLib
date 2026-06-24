@@ -3,8 +3,8 @@
 ; It passes only two parameters to Ahk2exe: /in, /out, /base.
 ; Other parameters must be replaced with Ahk2exe directives inside the target script.
 
-#Requires AutoHotkey v2.0.19
-#Include 'GetInterpreter\GetInterpreter.ahk'
+#Requires AutoHotkey v2
+#Include "..\Utilities\GetInterpreter\GetInterpreter.ahk"
 #SingleInstance ignore
 #Warn
 
