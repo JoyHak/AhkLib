@@ -1,0 +1,3 @@
+[submodule "Scripts/MarkdownToBBCode"]
+	path = Scripts/MarkdownToBBCode
+	url = https://github.com/JoyHak/MarkdownToBBCode
